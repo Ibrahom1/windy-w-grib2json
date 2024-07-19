@@ -6,7 +6,7 @@ import useEffect from 'react';
 
 const MapboxWindComponent = () => {
   useEffect(() => {
-    mapboxgl.accessToken = 'pk.eyJ1IjoiZW5ncmtpIiwiYSI6ImNrc29yeHB2aDBieDEydXFoY240bXExcWoifQ.WS7GVtVGZb4xgHn9dleszQ';
+    mapboxgl.accessToken = 'YOUR_TOKEN_HERE';
 
     const map = new mapboxgl.Map({
       container: 'map',
